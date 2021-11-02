@@ -44,3 +44,5 @@ gem "blueprinter", "~> 0.25.3"
 gem "faker", "~> 2.19"
 
 gem "oj", "~> 3.13"
+
+gem "benchmark-ips", "~> 2.9"
