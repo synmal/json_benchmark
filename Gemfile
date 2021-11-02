@@ -42,3 +42,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jb", "~> 0.8.0"
 gem "blueprinter", "~> 0.25.3"
 gem "faker", "~> 2.19"
+
+gem "oj", "~> 3.13"
