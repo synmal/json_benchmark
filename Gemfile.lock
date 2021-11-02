@@ -60,6 +60,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
+    benchmark-ips (2.9.2)
     blueprinter (0.25.3)
     bootsnap (1.9.1)
       msgpack (~> 1.0)
@@ -152,6 +153,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  benchmark-ips (~> 2.9)
   blueprinter (~> 0.25.3)
   bootsnap (>= 1.4.4)
   byebug
