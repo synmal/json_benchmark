@@ -1,0 +1,1 @@
+json.array! @posts, partial: 'posts/post_jbuilder', as: :post

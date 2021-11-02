@@ -1,0 +1,1 @@
+render partial: "posts/post_jb", collection: @posts, as: :post

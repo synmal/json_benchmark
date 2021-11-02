@@ -1,0 +1,8 @@
+json = {
+  id: post.id,
+  content: post.content,
+  comments: render(partial: "comments/comment_jb", collection: post.comments, as: :comment),
+  author: post.user.username
+}
+
+json

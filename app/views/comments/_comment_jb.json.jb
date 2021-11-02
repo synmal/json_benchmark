@@ -1,0 +1,7 @@
+json = {
+  id: comment.id,
+  content: comment.content,
+  author: comment.user.username
+}
+
+json
