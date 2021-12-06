@@ -2,6 +2,24 @@ require 'benchmark/ips'
 
 class PostsController < ApplicationController
   def index
+    # NOTE: Render this
+    # [
+    #   {
+    #     "id": "1",
+    #     "content": "Post Content",
+    #     "author": "Post Author",
+    #     "comments": [
+    #       {
+    #         "id": "1",
+    #         "content": "Comment content",
+    #         "author": "Comment author"
+    #       },
+    #       ...
+    #     ],
+    #   },
+    #   ...
+    # ]
+
     @posts = Post.includes(:user, comments: [:user])
 
     # render json: @posts.as_json(
