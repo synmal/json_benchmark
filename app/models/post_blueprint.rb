@@ -7,4 +7,15 @@ class PostBlueprint < Blueprinter::Base
   end
 
   association :comments, blueprint: CommentBlueprint
+
+  # NOTE: Able to support "view"
+  # view :normal do
+  #   fields :first_name, :last_name
+  # end
+
+  # view :extended do
+  #   include_view :normal
+  #   field :address
+  #   association :projects
+  # end
 end
